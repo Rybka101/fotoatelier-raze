@@ -150,7 +150,15 @@ export default function Home() {
         </section>
 
         {/* Technology Section */}
-        <section className="py-20 bg-gradient-to-r from-primary/10 to-blue-100 border-t border-border">
+        <section 
+          className="py-20 border-t border-border"
+          style={{
+            backgroundImage: 'url(https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/gallery-bg-new_678b441b.png)',
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            backgroundAttachment: 'fixed',
+          }}
+        >
           <div className="container">
             <h2 className="text-4xl font-bold text-primary mb-4 text-center" style={{ fontFamily: "'Playfair Display', serif" }}>
               Využíváme nejmodernější technologie
