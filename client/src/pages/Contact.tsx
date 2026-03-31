@@ -133,6 +133,19 @@ export default function Contact() {
                       </p>
                     </div>
                   </div>
+
+                  <div className="flex gap-4 pt-4 border-t border-border">
+                    <div className="w-6 h-6 text-primary flex-shrink-0 mt-1">ℹ</div>
+                    <div>
+                      <h3 className="font-bold text-foreground mb-2">Zodpovědná osoba</h3>
+                      <p className="text-foreground/70 mb-1">
+                        Radek Zeman
+                      </p>
+                      <p className="text-foreground/70 text-sm">
+                        IČO: 06643477
+                      </p>
+                    </div>
+                  </div>
                 </div>
 
                 {/* Social Media */}
