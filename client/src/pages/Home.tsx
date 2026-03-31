@@ -42,13 +42,13 @@ export default function Home() {
         <section 
           className="relative min-h-screen flex items-center justify-center overflow-hidden"
           style={{
-            backgroundImage: 'url(https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/hero-bg-new-FBMMPaDu7ZogY3pFfurEBN.webp)',
+            backgroundImage: 'url(https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/gallery-bg-new_678b441b.png)',
             backgroundSize: 'cover',
             backgroundPosition: 'center',
           }}
         >
           {/* Dark overlay for text readability */}
-          <div className="absolute inset-0 bg-black/20"></div>
+          <div className="absolute inset-0 bg-black/10"></div>
           
           <div className="container relative z-10 py-20">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
