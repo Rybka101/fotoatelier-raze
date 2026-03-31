@@ -125,9 +125,9 @@ export default function Home() {
                 </div>
 
                 <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow border-l-4 border-primary">
-                  <h3 className="text-lg font-bold text-foreground mb-2">Tisk na místě</h3>
+                  <h3 className="text-lg font-bold text-foreground mb-2">Tisk fotografií na místě</h3>
                   <p className="text-foreground/70">
-                    Hosté si mohou odnést fyzické fotografie jako okamžitý suvenýr z vaší akce.
+                    Během několika vteřin si hosté mohou vytisknout a odnést fyzické fotografie jako suvenýr z vaší akce.
                   </p>
                 </div>
 
@@ -142,6 +142,7 @@ export default function Home() {
                   <h3 className="text-lg font-bold text-foreground mb-2">Mobilní přístup</h3>
                   <p className="text-foreground/70">
                     Přijdeme k vám s kompletním vybavením.
+Po celé České republice.
                   </p>
                 </div>
               </div>
@@ -213,10 +214,10 @@ export default function Home() {
         <section className="py-16 bg-primary text-white">
           <div className="container text-center">
             <h2 className="text-3xl font-bold mb-6" style={{ fontFamily: "'Playfair Display', serif" }}>
-              Připraveni na vaši akci?
+              Hledáte fotoateliér na Vaší akci?
             </h2>
             <p className="text-lg mb-8 max-w-2xl mx-auto opacity-90">
-              Kontaktujte nás a domluvíme veškeré detaily. Jsme tu pro vás!
+              Kontaktujte nás a domluvíme veškeré detaily
             </p>
             <Link href="/contact">
               <Button 
