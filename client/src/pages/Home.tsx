@@ -63,7 +63,7 @@ export default function Home() {
                     alt="Fotoateliér RAZE Logo" 
                     className="h-40 w-auto mb-8"
                   />
-                  <p className="text-xl font-bold mb-8 max-w-md" style={{ color: '#000000' }}>
+                  <p className="text-xl font-bold mb-8 max-w-md text-foreground/80">
                     Mobilní fotoateliér s profesionálním vybavením a tiskem fotografií na místě
                   </p>
                   <Link href="/gallery">

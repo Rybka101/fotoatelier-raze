@@ -195,15 +195,12 @@ export default function Gallery() {
         {/* CTA Section */}
         <section className="py-16 bg-secondary/30">
           <div className="container text-center">
-            <h2 className="text-3xl font-bold text-foreground mb-4" style={{ fontFamily: "'Playfair Display', serif" }}>
+            <h2 className="text-3xl font-bold text-foreground mb-8" style={{ fontFamily: "'Playfair Display', serif" }}>
               Líbí se vám naše práce?
             </h2>
-            <p className="text-lg text-foreground/70 mb-8 max-w-2xl mx-auto">
-              Kontaktujte nás a domluvme si fotografování vaší akce. Jsme připraveni přinést profesionální fotografickou službu přímo k vám.
-            </p>
             <Link href="/contact">
               <Button size="lg" className="bg-primary hover:bg-blue-700 text-white font-bold">
-                Objednat fotografii
+                Kontaktujte nás
               </Button>
             </Link>
           </div>
