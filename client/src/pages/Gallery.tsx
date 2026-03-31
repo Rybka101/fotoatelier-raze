@@ -10,53 +10,81 @@ import { useState } from "react";
  * - Hover effects and smooth transitions
  */
 
-// Sample gallery items - in a real application, these would come from a database or API
+// Gallery items with your actual photos
 const galleryItems = [
   {
     id: 1,
-    title: "Taneční soutěž 2025",
-    category: "Taneční soutěž",
-    image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=600&h=400&fit=crop",
-    description: "Profesionální fotografie z taneční soutěže s dynamickými momenty"
+    title: "Vystoupení 1",
+    category: "Vystoupení",
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/R6A_0273_679ab37b.jpg",
+    description: "Profesionální fotografie z vystoupení s dynamickými momenty"
   },
   {
     id: 2,
-    title: "Korporátní večírek",
-    category: "Firemní akce",
-    image: "https://images.unsplash.com/photo-1519671482677-504be0ffec60?w=600&h=400&fit=crop",
-    description: "Fotografie z korporátního večírku s profesionálním přístupem"
+    title: "Vystoupení 2",
+    category: "Vystoupení",
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/R6A_0431_60b9f3ef.jpg",
+    description: "Detailní záběry z vystoupení"
   },
   {
     id: 3,
-    title: "Ples",
-    category: "Ples",
-    image: "https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=600&h=400&fit=crop",
-    description: "Elegantní fotografie z plesu s profesionálním osvětlením"
+    title: "Vystoupení 3",
+    category: "Vystoupení",
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/R6A_3177_31dc753f.jpg",
+    description: "Profesionální fotografie z vystoupení"
   },
   {
     id: 4,
-    title: "Taneční soutěž - Detail",
-    category: "Taneční soutěž",
-    image: "https://images.unsplash.com/photo-1504521531156-5a5d0b58f0e0?w=600&h=400&fit=crop",
-    description: "Detailní záběry tanečníků v akci"
+    title: "Vystoupení 4",
+    category: "Vystoupení",
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/R6A_4902_8e2a7043.jpg",
+    description: "Krásné záběry z vystoupení"
   },
   {
     id: 5,
-    title: "Firemní akce",
-    category: "Firemní akce",
-    image: "https://images.unsplash.com/photo-1540575467063-178f50002cbc?w=600&h=400&fit=crop",
-    description: "Profesionální fotografie z firemní akce"
+    title: "Vystoupení 5",
+    category: "Vystoupení",
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/R6A_7560_4d218703.jpg",
+    description: "Profesionální fotografie z vystoupení"
   },
   {
     id: 6,
-    title: "Svatba",
-    category: "Svatby",
-    image: "https://images.unsplash.com/photo-1519741497674-611481863552?w=600&h=400&fit=crop",
-    description: "Nádherné fotografie ze svatby"
+    title: "Vystoupení 6",
+    category: "Vystoupení",
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/R6A_7839_c4d152f4.jpg",
+    description: "Detailní záběry tanečníků v akci"
+  },
+  {
+    id: 7,
+    title: "Vystoupení 7",
+    category: "Vystoupení",
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/R6A_8009_09450652.jpg",
+    description: "Nádherné fotografie z vystoupení"
+  },
+  {
+    id: 8,
+    title: "Vystoupení 8",
+    category: "Vystoupení",
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/R6A_8915_c534653a.jpg",
+    description: "Profesionální fotografie z vystoupení"
+  },
+  {
+    id: 9,
+    title: "Vystoupení 9",
+    category: "Vystoupení",
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/R6A_9819_4bc332c7.jpg",
+    description: "Krásné záběry z vystoupení"
+  },
+  {
+    id: 10,
+    title: "Atelier",
+    category: "Atelier",
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/unnamed_322d4e72.png",
+    description: "Fotografie z našeho ateliéru"
   },
 ];
 
-const categories = ["Všechny", "Taneční soutěž", "Ples", "Firemní akce", "Svatby"];
+const categories = ["Všechny", "Vystoupení", "Atelier"];
 
 export default function Gallery() {
   const [selectedCategory, setSelectedCategory] = useState("Všechny");
