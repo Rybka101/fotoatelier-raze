@@ -1,6 +1,6 @@
 import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
-import { ArrowLeft, Mail, Phone, MapPin, Facebook, Instagram, Youtube } from "lucide-react";
+import { ArrowLeft, Mail, Phone, MapPin, Facebook, Instagram } from "lucide-react";
 import { useState } from "react";
 
 /**
@@ -107,8 +107,8 @@ export default function Contact() {
                     <Phone className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
                     <div>
                       <h3 className="font-bold text-foreground mb-1">Telefon</h3>
-                      <a href="tel:+420123456789" className="text-foreground/70 hover:text-primary transition-colors">
-                        +420 123 456 789
+                      <a href="tel:+420727891241" className="text-foreground/70 hover:text-primary transition-colors">
+                        +420 727 891 241
                       </a>
                     </div>
                   </div>
@@ -117,8 +117,8 @@ export default function Contact() {
                     <Mail className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
                     <div>
                       <h3 className="font-bold text-foreground mb-1">Email</h3>
-                      <a href="mailto:info@fotoatelier-raze.cz" className="text-foreground/70 hover:text-primary transition-colors">
-                        info@fotoatelier-raze.cz
+                      <a href="mailto:raze@raze.cz" className="text-foreground/70 hover:text-primary transition-colors">
+                        raze@raze.cz
                       </a>
                     </div>
                   </div>
@@ -126,10 +126,10 @@ export default function Contact() {
                   <div className="flex gap-4">
                     <MapPin className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
                     <div>
-                      <h3 className="font-bold text-foreground mb-1">Lokace</h3>
+                      <h3 className="font-bold text-foreground mb-1">Adresa</h3>
                       <p className="text-foreground/70">
-                        Mobilní fotoateliér<br />
-                        Jsme k dispozici po celé ČR
+                        Rybalkova 1228<br />
+                        440 01 Louny
                       </p>
                     </div>
                   </div>
@@ -157,15 +157,7 @@ export default function Contact() {
                     >
                       <Instagram className="w-5 h-5" />
                     </a>
-                    <a 
-                      href="https://youtube.com" 
-                      target="_blank" 
-                      rel="noopener noreferrer"
-                      className="w-12 h-12 bg-secondary rounded-full flex items-center justify-center text-primary hover:bg-primary hover:text-white transition-all"
-                      aria-label="YouTube"
-                    >
-                      <Youtube className="w-5 h-5" />
-                    </a>
+
                   </div>
                 </div>
               </div>
@@ -307,31 +299,19 @@ export default function Contact() {
             </h2>
 
             <div className="space-y-6">
-              <div className="bg-white p-6 rounded-lg border border-border">
-                <h3 className="font-bold text-lg text-foreground mb-2">Jaké jsou vaše ceny?</h3>
-                <p className="text-foreground/70">
-                  Ceny se liší podle typu akce, délky fotografování a počtu fotografií. Kontaktujte nás pro individuální cenovou nabídku.
-                </p>
-              </div>
+
 
               <div className="bg-white p-6 rounded-lg border border-border">
                 <h3 className="font-bold text-lg text-foreground mb-2">Jak dlouho trvá, než dostanu fotografie?</h3>
                 <p className="text-foreground/70">
-                  Fotografie jsou dostupné na místě pro tisk. Digitální verze jsou obvykle připraveny do 2 týdnů po akci.
+                  Fotografie jsou dostupné pro tisk na místě během několika sekund. Digitální verze jsou obvykle připraveny do 1 týdne po akci.
                 </p>
               </div>
 
               <div className="bg-white p-6 rounded-lg border border-border">
-                <h3 className="font-bold text-lg text-foreground mb-2">Pokrýváte akce mimo Českou republiku?</h3>
+                <h3 className="font-bold text-lg text-foreground mb-2">Pokrýváme akce mimo Českou republiku?</h3>
                 <p className="text-foreground/70">
-                  Jsme primárně dostupní po celé České republice. Pro akce mimo ČR nás prosím kontaktujte - můžeme se domluvit.
-                </p>
-              </div>
-
-              <div className="bg-white p-6 rounded-lg border border-border">
-                <h3 className="font-bold text-lg text-foreground mb-2">Jaké jsou vaše pracovní hodiny?</h3>
-                <p className="text-foreground/70">
-                  Jsme flexibilní a přizpůsobujeme se vašim potřebám. Fotografie můžeme provádět kdykoliv během dne i v noci.
+                  Jsme primárně dostupní po celé České republice. Pro akce mimo ČR nás prosím kontaktujte.
                 </p>
               </div>
             </div>
