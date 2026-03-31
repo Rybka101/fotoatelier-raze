@@ -35,21 +35,21 @@ export default function References() {
       {/* Navigation */}
       <nav className="bg-white shadow-sm sticky top-0 z-50">
         <div className="container flex items-center justify-between py-4">
-          <Link href="/">
-            <a className="text-2xl font-bold text-primary">Raze</a>
+          <Link href="/" className="text-2xl font-bold text-primary">
+            Raze
           </Link>
           <div className="flex gap-8">
-            <Link href="/">
-              <a className="text-foreground/70 hover:text-foreground transition-colors">Domů</a>
+            <Link href="/" className="text-foreground/70 hover:text-foreground transition-colors">
+              Domů
             </Link>
-            <Link href="/gallery">
-              <a className="text-foreground/70 hover:text-foreground transition-colors">Galerie</a>
+            <Link href="/gallery" className="text-foreground/70 hover:text-foreground transition-colors">
+              Galerie
             </Link>
-            <Link href="/references">
-              <a className="text-primary font-semibold">Reference</a>
+            <Link href="/references" className="text-primary font-semibold">
+              Reference
             </Link>
-            <Link href="/contact">
-              <a className="text-foreground/70 hover:text-foreground transition-colors">Kontakt</a>
+            <Link href="/contact" className="text-foreground/70 hover:text-foreground transition-colors">
+              Kontakt
             </Link>
           </div>
         </div>
@@ -62,7 +62,7 @@ export default function References() {
             Naše Reference
           </h1>
           <p className="text-lg text-foreground/70 max-w-2xl">
-            Spolupracujeme s předními organizacemi a společnostmi. Zde jsou některé z našich partnerů a klientů, se kterými jsme měli tu čest pracovat.
+            Zde jsou některé z našich partnerů a klientů, se kterými máme tu čest pracovat.
           </p>
         </div>
       </section>
