@@ -1,53 +1,16 @@
 import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
 import { ArrowLeft, Mail, Phone, MapPin, Facebook, Instagram } from "lucide-react";
-import { useState } from "react";
 
 /**
  * Design Philosophy: Modern Professional with Bold Blue Accent
  * - Clean contact form with professional layout
  * - Social media integration
  * - Contact information clearly displayed
+ * - Formspree integration for email delivery
  */
 
 export default function Contact() {
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    phone: '',
-    eventType: '',
-    eventDate: '',
-    message: ''
-  });
-
-  const [submitted, setSubmitted] = useState(false);
-
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
-    const { name, value } = e.target;
-    setFormData(prev => ({
-      ...prev,
-      [name]: value
-    }));
-  };
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    // In a real application, this would send the data to a server
-    console.log('Form submitted:', formData);
-    setSubmitted(true);
-    setTimeout(() => {
-      setSubmitted(false);
-      setFormData({
-        name: '',
-        email: '',
-        phone: '',
-        eventType: '',
-        eventDate: '',
-        message: ''
-      });
-    }, 3000);
-  };
-
   return (
     <div className="min-h-screen flex flex-col bg-background">
       {/* Navigation */}
@@ -170,7 +133,6 @@ export default function Contact() {
                     >
                       <Instagram className="w-5 h-5" />
                     </a>
-
                   </div>
                 </div>
               </div>
@@ -182,122 +144,102 @@ export default function Contact() {
                     Pošlete nám zprávu
                   </h2>
 
-                  {submitted ? (
-                    <div className="bg-green-50 border border-green-200 rounded-lg p-6 text-center">
-                      <p className="text-green-700 font-medium">
-                        Děkujeme! Vaše zpráva byla úspěšně odeslána. Brzy se vám ozveme.
-                      </p>
-                    </div>
-                  ) : (
-                    <form action="https://formspree.io/f/mdapzgnk" method="POST" onSubmit={handleSubmit} className="space-y-6">
-                      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                        <div>
-                          <label htmlFor="name" className="block text-sm font-medium text-foreground mb-2">
-                            Jméno *
-                          </label>
-                          <input
-                            type="text"
-                            id="name"
-                            name="name"
-                            value={formData.name}
-                            onChange={handleChange}
-                            required
-                            className="w-full px-4 py-2 border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"
-                            placeholder="Vaše jméno"
-                          />
-                        </div>
-                        <div>
-                          <label htmlFor="email" className="block text-sm font-medium text-foreground mb-2">
-                            Email *
-                          </label>
-                          <input
-                            type="email"
-                            id="email"
-                            name="email"
-                            value={formData.email}
-                            onChange={handleChange}
-                            required
-                            className="w-full px-4 py-2 border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"
-                            placeholder="vase@email.cz"
-                          />
-                        </div>
-                      </div>
-
-                      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                        <div>
-                          <label htmlFor="phone" className="block text-sm font-medium text-foreground mb-2">
-                            Telefon
-                          </label>
-                          <input
-                            type="tel"
-                            id="phone"
-                            name="phone"
-                            value={formData.phone}
-                            onChange={handleChange}
-                            className="w-full px-4 py-2 border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"
-                            placeholder="+420 123 456 789"
-                          />
-                        </div>
-                        <div>
-                          <label htmlFor="eventDate" className="block text-sm font-medium text-foreground mb-2">
-                            Datum akce
-                          </label>
-                          <input
-                            type="date"
-                            id="eventDate"
-                            name="eventDate"
-                            value={formData.eventDate}
-                            onChange={handleChange}
-                            className="w-full px-4 py-2 border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"
-                          />
-                        </div>
-                      </div>
-
+                  <form action="https://formspree.io/f/mdapzgnk" method="POST" className="space-y-6">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                       <div>
-                        <label htmlFor="eventType" className="block text-sm font-medium text-foreground mb-2">
-                          Typ akce
+                        <label htmlFor="name" className="block text-sm font-medium text-foreground mb-2">
+                          Jméno *
                         </label>
-                        <select
-                          id="eventType"
-                          name="eventType"
-                          value={formData.eventType}
-                          onChange={handleChange}
-                          className="w-full px-4 py-2 border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"
-                        >
-                          <option value="">Vyberte typ akce</option>
-                          <option value="tanecni-soutez">Taneční soutěž</option>
-                          <option value="ples">Ples</option>
-                          <option value="firemni-akcce">Firemní akce</option>
-                          <option value="svatba">Svatba</option>
-                          <option value="jina">Jiná akce</option>
-                        </select>
-                      </div>
-
-                      <div>
-                        <label htmlFor="message" className="block text-sm font-medium text-foreground mb-2">
-                          Zpráva *
-                        </label>
-                        <textarea
-                          id="message"
-                          name="message"
-                          value={formData.message}
-                          onChange={handleChange}
+                        <input
+                          type="text"
+                          id="name"
+                          name="name"
                           required
-                          rows={5}
-                          className="w-full px-4 py-2 border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary resize-none"
-                          placeholder="Popište vaši akci a co od nás očekáváte..."
-                        ></textarea>
+                          className="w-full px-4 py-2 border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"
+                          placeholder="Vaše jméno"
+                        />
                       </div>
+                      <div>
+                        <label htmlFor="email" className="block text-sm font-medium text-foreground mb-2">
+                          Email *
+                        </label>
+                        <input
+                          type="email"
+                          id="email"
+                          name="email"
+                          required
+                          className="w-full px-4 py-2 border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"
+                          placeholder="vase@email.cz"
+                        />
+                      </div>
+                    </div>
 
-                      <Button 
-                        type="submit"
-                        size="lg"
-                        className="w-full bg-primary hover:bg-blue-700 text-white font-bold"
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                      <div>
+                        <label htmlFor="phone" className="block text-sm font-medium text-foreground mb-2">
+                          Telefon
+                        </label>
+                        <input
+                          type="tel"
+                          id="phone"
+                          name="phone"
+                          className="w-full px-4 py-2 border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"
+                          placeholder="+420 123 456 789"
+                        />
+                      </div>
+                      <div>
+                        <label htmlFor="eventDate" className="block text-sm font-medium text-foreground mb-2">
+                          Datum akce
+                        </label>
+                        <input
+                          type="date"
+                          id="eventDate"
+                          name="eventDate"
+                          className="w-full px-4 py-2 border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"
+                        />
+                      </div>
+                    </div>
+
+                    <div>
+                      <label htmlFor="eventType" className="block text-sm font-medium text-foreground mb-2">
+                        Typ akce
+                      </label>
+                      <select
+                        id="eventType"
+                        name="eventType"
+                        className="w-full px-4 py-2 border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"
                       >
-                        Odeslat zprávu
-                      </Button>
-                    </form>
-                  )}
+                        <option value="">Vyberte typ akce</option>
+                        <option value="tanecni-soutez">Taneční soutěž</option>
+                        <option value="ples">Ples</option>
+                        <option value="firemni-akcce">Firemní akce</option>
+                        <option value="svatba">Svatba</option>
+                        <option value="jina">Jiná akce</option>
+                      </select>
+                    </div>
+
+                    <div>
+                      <label htmlFor="message" className="block text-sm font-medium text-foreground mb-2">
+                        Zpráva *
+                      </label>
+                      <textarea
+                        id="message"
+                        name="message"
+                        required
+                        rows={5}
+                        className="w-full px-4 py-2 border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary resize-none"
+                        placeholder="Popište vaši akci a co od nás očekáváte..."
+                      ></textarea>
+                    </div>
+
+                    <Button 
+                      type="submit"
+                      size="lg"
+                      className="w-full bg-primary hover:bg-blue-700 text-white font-bold"
+                    >
+                      Odeslat zprávu
+                    </Button>
+                  </form>
                 </div>
               </div>
             </div>
@@ -312,7 +254,6 @@ export default function Contact() {
             </h2>
 
             <div className="space-y-6">
-
 
               <div className="bg-white p-6 rounded-lg border border-border">
                 <h3 className="font-bold text-lg text-foreground mb-2">Jak dlouho trvá, než dostanu fotografie?</h3>
