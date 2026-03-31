@@ -52,7 +52,8 @@ export default function Contact() {
               Kontaktujte nás
             </h1>
             <p className="text-lg text-foreground/70 max-w-2xl">
-              Máte dotazy nebo chcete objednat fotografii vaší akce? Kontaktujte nás a my vám rádi pomůžeme.
+              Máte dotazy nebo chcete objednat fotoateliér na Vaší akci? 
+Kontaktujte nás a my vám rádi pomůžeme.
             </p>
           </div>
         </section>
