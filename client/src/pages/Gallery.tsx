@@ -113,6 +113,9 @@ export default function Gallery() {
             <Link href="/gallery" className="text-primary font-medium">
               Galerie
             </Link>
+            <Link href="/references" className="text-foreground hover:text-primary font-medium transition-colors">
+              Reference
+            </Link>
             <Link href="/contact" className="text-foreground hover:text-primary font-medium transition-colors">
               Kontakt
             </Link>

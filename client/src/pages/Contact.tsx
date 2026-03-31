@@ -30,6 +30,9 @@ export default function Contact() {
             <Link href="/gallery" className="text-foreground hover:text-primary font-medium transition-colors">
               Galerie
             </Link>
+            <Link href="/references" className="text-foreground hover:text-primary font-medium transition-colors">
+              Reference
+            </Link>
             <Link href="/contact" className="text-primary font-medium">
               Kontakt
             </Link>
