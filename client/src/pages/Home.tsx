@@ -103,7 +103,7 @@ export default function Home() {
               
               <div className="prose prose-lg max-w-none mb-12">
                 <p className="text-lg text-foreground/80 leading-relaxed mb-6">
-                  Vítejte na webových stránkách Fotoateliéru Raze! Jsme mobilní fotoateliér, který přináší profesionální fotografickou službu přímo k vám. Naší specialitou jsou <strong>taneční soutěže, plesy a firemní večírky</strong>, kde zachycujeme nejlepší momenty vaší akce.
+                  Vítejte na webových stránkách Fotoateliéru Raze! Jsme mobilní fotoateliér, který zajišťuje profesionální fotografické služby přímo na vaší akci. Specializujeme se na taneční soutěže, plesy a firemní večírky, kde zachycujeme ty nejkrásnější a nejdůležitější okamžiky.
                 </p>
 
                 <p className="text-lg text-foreground/80 leading-relaxed mb-6">
@@ -203,7 +203,7 @@ export default function Home() {
 
             <div className="bg-white p-8 rounded-lg shadow-md border-l-4 border-primary max-w-2xl mx-auto">
               <p className="text-foreground text-center text-lg leading-relaxed">
-                <strong>Fotografie vytisknuté našim fotoateliérem neztrácejí barvu stářím ani na slunci.</strong> Termosublimační tisk zajišťuje dlouhodobou trvanlivost a stabilitu barev, takže vaše vzpomínky zůstanou živé a krásné na dlouhá léta.
+                <strong>Fotografie vytisknuté v našem fotoateliéru neztrácejí barvu stářím ani na slunci.</strong> Termosublimační tisk zajišťuje dlouhodobou trvanlivost a stabilitu barev, takže vaše vzpomínky zůstanou živé a krásné na dlouhá léta.
               </p>
             </div>
           </div>
