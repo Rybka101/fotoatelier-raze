@@ -100,7 +100,7 @@ export default function Home() {
               
               <div className="prose prose-lg max-w-none mb-12">
                 <p className="text-lg text-foreground/80 leading-relaxed mb-6">
-                  Vítejte v Fotoateliéru RAZE! Jsme mobilní fotoateliér, který přináší profesionální fotografickou službu přímo k vám. Naše specialitou jsou <strong>taneční soutěže, plesy a firemní večírky</strong>, kde zachycujeme nejlepší momenty vaší akce.
+                  Vítejte na webových stránkách Fotoateliéru Raze! Jsme mobilní fotoateliér, který přináší profesionální fotografickou službu přímo k vám. Naší specialitou jsou <strong>taneční soutěže, plesy a firemní večírky</strong>, kde zachycujeme nejlepší momenty vaší akce.
                 </p>
 
                 <p className="text-lg text-foreground/80 leading-relaxed mb-6">
@@ -108,7 +108,7 @@ export default function Home() {
                 </p>
 
                 <p className="text-lg text-foreground/80 leading-relaxed">
-                  Naší <strong>největší výhodou</strong> je možnost <strong>tisku fotografií přímo na místě</strong>. Vaši hosté si mohou odnést fyzické fotografie jako suvenýr z vaší akce - to vytváří nezapomenutelný zážitek a okamžitou radost z kvalitních fotografií.
+                  Naší <strong>největší výhodou</strong> je možnost <strong>tisku fotografií přímo na místě</strong>. Hosté si tak mohou odnést fyzické fotografie jako suvenýr z vaší akce - to vytváří nezapomenutelný zážitek a okamžitou radost z kvalitních fotografií.
                 </p>
               </div>
 
