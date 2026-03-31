@@ -213,7 +213,7 @@ export default function Home() {
               Připraveni na vaši akci?
             </h2>
             <p className="text-lg mb-8 max-w-2xl mx-auto opacity-90">
-              Kontaktujte nás a domluvme si detaily vaší fotografie. Jsme tu pro vás!
+              Kontaktujte nás a domluvíme veškeré detaily. Jsme tu pro vás!
             </p>
             <Link href="/contact">
               <Button 
