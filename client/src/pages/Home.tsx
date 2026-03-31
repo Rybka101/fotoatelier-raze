@@ -115,30 +115,30 @@ export default function Home() {
               {/* Features Grid */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-12">
                 <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow border-l-4 border-primary">
-                  <h3 className="text-lg font-bold text-foreground mb-2">Profesionální Fotografie</h3>
+                  <h3 className="text-lg font-bold text-foreground mb-2">Profesionální fotografie</h3>
                   <p className="text-foreground/70">
                     Kvalitní vybavení a zkušení fotografové, kteří zachytí každý důležitý moment vaší akce.
                   </p>
                 </div>
 
                 <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow border-l-4 border-primary">
-                  <h3 className="text-lg font-bold text-foreground mb-2">Tisk na Místě</h3>
+                  <h3 className="text-lg font-bold text-foreground mb-2">Tisk na místě</h3>
                   <p className="text-foreground/70">
                     Hosté si mohou odnést fyzické fotografie jako okamžitý suvenýr z vaší akce.
                   </p>
                 </div>
 
                 <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow border-l-4 border-primary">
-                  <h3 className="text-lg font-bold text-foreground mb-2">Různé Akce</h3>
+                  <h3 className="text-lg font-bold text-foreground mb-2">Různé akce</h3>
                   <p className="text-foreground/70">
-                    Od tanečních soutěží a plesů až po firemní večírky a svatby - pokrýváme vše.
+                    Od tanečních soutěží a plesů až po firemní večírky či jiné akce.
                   </p>
                 </div>
 
                 <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow border-l-4 border-primary">
-                  <h3 className="text-lg font-bold text-foreground mb-2">Mobilní Přístup</h3>
+                  <h3 className="text-lg font-bold text-foreground mb-2">Mobilní přístup</h3>
                   <p className="text-foreground/70">
-                    Přijdeme k vám s kompletním vybavením. Žádné komplikace, jen kvalitní služba.
+                    Přijdeme k vám s kompletním vybavením.
                   </p>
                 </div>
               </div>
