@@ -18,7 +18,7 @@ export default function Home() {
         <div className="container flex items-center justify-between py-4">
           <div className="flex items-center gap-2">
             <img 
-              src="https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/raze-logo-9CyJxN6xKHqYJjZjQqKDhH.png" 
+              src="https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/raze-logo_ebc3f343.png" 
               alt="Fotoateliér RAZE" 
               className="h-10 w-auto"
             />
@@ -42,7 +42,7 @@ export default function Home() {
         <section 
           className="relative min-h-screen flex items-center justify-center overflow-hidden"
           style={{
-            backgroundImage: 'url(https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/hero-bg-dZJF8sUNHhbUhvwcLzcPoY.webp)',
+            backgroundImage: 'url(https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/hero-bg-new-FBMMPaDu7ZogY3pFfurEBN.webp)',
             backgroundSize: 'cover',
             backgroundPosition: 'center',
           }}
@@ -56,9 +56,9 @@ export default function Home() {
               <div className="flex flex-col justify-center">
                 <div className="mb-8 animate-fade-in">
                   <img 
-                    src="https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/raze-logo-9CyJxN6xKHqYJjZjQqKDhH.png" 
+                    src="https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/raze-logo_ebc3f343.png" 
                     alt="Fotoateliér RAZE Logo" 
-                    className="h-32 w-auto mb-8"
+                    className="h-40 w-auto mb-8"
                   />
                   <h1 className="text-5xl lg:text-6xl font-bold text-white mb-4" style={{ fontFamily: "'Playfair Display', serif" }}>
                     Fotoateliér RAZE
@@ -116,55 +116,87 @@ export default function Home() {
               </div>
 
               {/* Features Grid */}
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
-                <div className="bg-secondary/30 p-8 rounded-lg border border-border hover:shadow-lg transition-shadow">
-                  <div className="flex items-start gap-4">
-                    <Camera className="w-8 h-8 text-primary flex-shrink-0 mt-1" />
-                    <div>
-                      <h3 className="text-xl font-bold text-foreground mb-2">Profesionální Fotografie</h3>
-                      <p className="text-foreground/70">
-                        Kvalitní vybavení a zkušení fotografové, kteří zachytí každý důležitý moment vaší akce.
-                      </p>
-                    </div>
-                  </div>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-12">
+                <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow border-l-4 border-primary">
+                  <h3 className="text-lg font-bold text-foreground mb-2">Profesionální Fotografie</h3>
+                  <p className="text-foreground/70">
+                    Kvalitní vybavení a zkušení fotografové, kteří zachytí každý důležitý moment vaší akce.
+                  </p>
                 </div>
 
-                <div className="bg-secondary/30 p-8 rounded-lg border border-border hover:shadow-lg transition-shadow">
-                  <div className="flex items-start gap-4">
-                    <Printer className="w-8 h-8 text-primary flex-shrink-0 mt-1" />
-                    <div>
-                      <h3 className="text-xl font-bold text-foreground mb-2">Tisk na Místě</h3>
-                      <p className="text-foreground/70">
-                        Hosté si mohou odnést fyzické fotografie jako okamžitý suvenýr z vaší akce.
-                      </p>
-                    </div>
-                  </div>
+                <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow border-l-4 border-primary">
+                  <h3 className="text-lg font-bold text-foreground mb-2">Tisk na Místě</h3>
+                  <p className="text-foreground/70">
+                    Hosté si mohou odnést fyzické fotografie jako okamžitý suvenýr z vaší akce.
+                  </p>
                 </div>
 
-                <div className="bg-secondary/30 p-8 rounded-lg border border-border hover:shadow-lg transition-shadow">
-                  <div className="flex items-start gap-4">
-                    <Music className="w-8 h-8 text-primary flex-shrink-0 mt-1" />
-                    <div>
-                      <h3 className="text-xl font-bold text-foreground mb-2">Různé Akce</h3>
-                      <p className="text-foreground/70">
-                        Od tanečních soutěží a plesů až po firemní večírky a svatby - pokrýváme vše.
-                      </p>
-                    </div>
-                  </div>
+                <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow border-l-4 border-primary">
+                  <h3 className="text-lg font-bold text-foreground mb-2">Různé Akce</h3>
+                  <p className="text-foreground/70">
+                    Od tanečních soutěží a plesů až po firemní večírky a svatby - pokrýváme vše.
+                  </p>
                 </div>
 
-                <div className="bg-secondary/30 p-8 rounded-lg border border-border hover:shadow-lg transition-shadow">
-                  <div className="flex items-start gap-4">
-                    <Heart className="w-8 h-8 text-primary flex-shrink-0 mt-1" />
-                    <div>
-                      <h3 className="text-xl font-bold text-foreground mb-2">Mobilní Přístup</h3>
-                      <p className="text-foreground/70">
-                        Přijdeme k vám s kompletním vybavením. Žádné komplikace, jen kvalitní služba.
-                      </p>
-                    </div>
-                  </div>
+                <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow border-l-4 border-primary">
+                  <h3 className="text-lg font-bold text-foreground mb-2">Mobilní Přístup</h3>
+                  <p className="text-foreground/70">
+                    Přijdeme k vám s kompletním vybavením. Žádné komplikace, jen kvalitní služba.
+                  </p>
                 </div>
               </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Technology Section */}
+        <section className="py-20 bg-gradient-to-r from-primary/10 to-blue-100 border-t border-border">
+          <div className="container">
+            <h2 className="text-4xl font-bold text-primary mb-4 text-center" style={{ fontFamily: "'Playfair Display', serif" }}>
+              Využíváme nejmodernější technologie
+            </h2>
+            <p className="text-lg text-foreground/70 text-center mb-12 max-w-3xl mx-auto">
+              Naše služby jsou postaveny na nejnovějších technologiích, které zajišťují vysoký uživatelský komfort při výběru fotografií, jejich tisk v nejlepší kvalitě a vše ve velmi krátkém čase.
+            </p>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12 max-w-2xl mx-auto">
+              <div className="flex items-start gap-4 bg-white p-6 rounded-lg shadow-md">
+                <div className="text-primary text-2xl font-bold flex-shrink-0">✔</div>
+                <div>
+                  <h3 className="font-bold text-foreground mb-1">Termosublimační tisk</h3>
+                  <p className="text-foreground/70 text-sm">Nejmodernější technologie pro tisk fotografií s dokonalou kvalitou</p>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-4 bg-white p-6 rounded-lg shadow-md">
+                <div className="text-primary text-2xl font-bold flex-shrink-0">✔</div>
+                <div>
+                  <h3 className="font-bold text-foreground mb-1">Dotykové terminály</h3>
+                  <p className="text-foreground/70 text-sm">Intuitivní výběr a objednávání fotografií přímo na místě</p>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-4 bg-white p-6 rounded-lg shadow-md">
+                <div className="text-primary text-2xl font-bold flex-shrink-0">✔</div>
+                <div>
+                  <h3 className="font-bold text-foreground mb-1">Vlastní software</h3>
+                  <p className="text-foreground/70 text-sm">Speciálně vyvinutý systém pro optimální workflow a efektivitu</p>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-4 bg-white p-6 rounded-lg shadow-md">
+                <div className="text-primary text-2xl font-bold flex-shrink-0">✔</div>
+                <div>
+                  <h3 className="font-bold text-foreground mb-1">Bezdrátový přenos</h3>
+                  <p className="text-foreground/70 text-sm">Okamžitý bezdrátový přenos fotografií bez zbytečných zpoždění</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-white p-8 rounded-lg shadow-md border-l-4 border-primary max-w-2xl mx-auto">
+              <p className="text-foreground text-center text-lg leading-relaxed">
+                <strong>Fotografie vytisknuté našim fotoateliérem neztrácejí barvu stářím ani na slunci.</strong> Termosublimační tisk zajišťuje dlouhodobou trvanlivost a stabilitu barev, takže vaše vzpomínky zůstanou živé a krásné na dlouhá léta.
+              </p>
             </div>
           </div>
         </section>
