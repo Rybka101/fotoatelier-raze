@@ -104,7 +104,7 @@ export default function Home() {
                 </p>
 
                 <p className="text-lg text-foreground/80 leading-relaxed mb-6">
-                  Naše služby nejsou omezeny pouze na tyto akce. Po domluvě jsme schopni fotografovat i <strong>svatby, oslavy, konference a další speciální příležitosti</strong>. Ať je vaše akce jakákoliv, jsme připraveni ji zdokumentovat s profesionálním přístupem a kreativním pohledem.
+                  Naše služby však nejsou omezeny pouze na tyto akce. Po domluvě jsme schopni fotografovat i <strong>svatby, oslavy, konference a další speciální příležitosti</strong>. Ať je vaše akce jakákoliv, jsme připraveni ji zdokumentovat s profesionálním přístupem a kreativním pohledem.
                 </p>
 
                 <p className="text-lg text-foreground/80 leading-relaxed">
