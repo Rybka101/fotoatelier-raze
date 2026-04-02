@@ -104,85 +104,97 @@ const galleryItems = [
   },
   {
     id: 16,
-    title: "Fotoatelier 1",
-    category: "Fotoatelier",
+    title: "Fotoateliér 1",
+    category: "Fotoateliér",
     image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/IMG_8060_1bce6371.PNG"
   },
   {
     id: 17,
-    title: "Fotoatelier 2",
-    category: "Fotoatelier",
+    title: "Fotoateliér 2",
+    category: "Fotoateliér",
     image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/IMG_8071_92913b53.PNG"
   },
   {
     id: 18,
-    title: "Fotoatelier 3",
-    category: "Fotoatelier",
+    title: "Fotoateliér 3",
+    category: "Fotoateliér",
     image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/IMG_8072_6267c2c3.PNG"
   },
   {
     id: 19,
-    title: "Fotoatelier 4",
-    category: "Fotoatelier",
+    title: "Fotoateliér 4",
+    category: "Fotoateliér",
     image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/IMG_8073_88a8e93f.PNG"
   },
   {
     id: 20,
-    title: "Fotoatelier 5",
-    category: "Fotoatelier",
+    title: "Fotoateliér 5",
+    category: "Fotoateliér",
     image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/IMG_8074_91bd5eb9.PNG"
   },
   {
     id: 21,
-    title: "Fotoatelier 6",
-    category: "Fotoatelier",
+    title: "Fotoateliér 6",
+    category: "Fotoateliér",
     image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/IMG_8075_7cb3bdda.PNG"
   },
   {
     id: 22,
-    title: "Fotoatelier 7",
-    category: "Fotoatelier",
+    title: "Fotoateliér 7",
+    category: "Fotoateliér",
     image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/IMG_8076_af174853.PNG"
   },
   {
     id: 23,
-    title: "Fotoatelier 8",
-    category: "Fotoatelier",
+    title: "Fotoateliér 8",
+    category: "Fotoateliér",
     image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/IMG_8077_452fe1f9.PNG"
   },
   {
     id: 24,
-    title: "Fotoatelier 9",
-    category: "Fotoatelier",
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/IMG_3110_6dfb8d03.jpg"
+    title: "Fotoateliér 9",
+    category: "Fotoateliér",
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/IMG_1111_c52a5727.jpg"
   },
   {
     id: 25,
-    title: "Fotoatelier 10",
-    category: "Fotoatelier",
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/IMG_3167_6d5dd852.jpg"
+    title: "Fotoateliér 10",
+    category: "Fotoateliér",
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/IMG_2222_ae563c43.jpg"
   },
   {
     id: 26,
-    title: "Fotoatelier 11",
-    category: "Fotoatelier",
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/IMG_3208_0fb6af55.jpg"
+    title: "Fotoateliér 11",
+    category: "Fotoateliér",
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/IMG_3110_6dfb8d03.jpg"
   },
   {
     id: 27,
-    title: "Fotoatelier 12",
-    category: "Fotoatelier",
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/IMG_3246_4535ca5a.jpg"
+    title: "Fotoateliér 12",
+    category: "Fotoateliér",
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/IMG_3167_6d5dd852.jpg"
   },
   {
     id: 28,
-    title: "Fotoatelier 13",
-    category: "Fotoatelier",
+    title: "Fotoateliér 13",
+    category: "Fotoateliér",
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/IMG_3208_0fb6af55.jpg"
+  },
+  {
+    id: 29,
+    title: "Fotoateliér 14",
+    category: "Fotoateliér",
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/IMG_3246_4535ca5a.jpg"
+  },
+  {
+    id: 30,
+    title: "Fotoateliér 15",
+    category: "Fotoateliér",
     image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/IMG_3288_944d71fa.jpg"
   },
 ];
 
-const categories = ["Všechny", "Vystoupení", "Fotoatelier"];
+const categories = ["Všechny", "Vystoupení", "Fotoateliér"];
 
 export default function Gallery() {
   const [selectedCategory, setSelectedCategory] = useState("Všechny");
