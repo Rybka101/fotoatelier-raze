@@ -262,7 +262,7 @@ Kontaktujte nás a my vám rádi pomůžeme.
               <div className="bg-white p-6 rounded-lg border border-border">
                 <h3 className="font-bold text-lg text-foreground mb-2">Jak dlouho trvá, než dostanu fotografie?</h3>
                 <p className="text-foreground/70">
-                  Fotografie jsou dostupné pro tisk na místě během několika sekund. Digitální verze jsou obvykle připraveny do 1 týdne po akci.
+                  Fotografie jsou dostupné pro tisk na místě během několika vteřin. Digitální verze jsou obvykle připraveny a zaslány emailem do 1 týdne po akci.
                 </p>
               </div>
 
