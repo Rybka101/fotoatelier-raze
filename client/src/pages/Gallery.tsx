@@ -77,14 +77,85 @@ const galleryItems = [
   },
   {
     id: 10,
-    title: "Atelier",
-    category: "Atelier",
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/unnamed_322d4e72.png",
-    description: "Fotografie z našeho ateliéru"
+    title: "Fotoatelier 1",
+    category: "Fotoatelier",
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/IMG_8060_1bce6371.PNG"
+  },
+  {
+    id: 11,
+    title: "Fotoatelier 2",
+    category: "Fotoatelier",
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/IMG_8071_92913b53.PNG"
+  },
+  {
+    id: 12,
+    title: "Fotoatelier 3",
+    category: "Fotoatelier",
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/IMG_8072_6267c2c3.PNG"
+  },
+  {
+    id: 13,
+    title: "Fotoatelier 4",
+    category: "Fotoatelier",
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/IMG_8073_88a8e93f.PNG"
+  },
+  {
+    id: 14,
+    title: "Fotoatelier 5",
+    category: "Fotoatelier",
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/IMG_8074_91bd5eb9.PNG"
+  },
+  {
+    id: 15,
+    title: "Fotoatelier 6",
+    category: "Fotoatelier",
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/IMG_8075_7cb3bdda.PNG"
+  },
+  {
+    id: 16,
+    title: "Fotoatelier 7",
+    category: "Fotoatelier",
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/IMG_8076_af174853.PNG"
+  },
+  {
+    id: 17,
+    title: "Fotoatelier 8",
+    category: "Fotoatelier",
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/IMG_8077_452fe1f9.PNG"
+  },
+  {
+    id: 18,
+    title: "Fotoatelier 9",
+    category: "Fotoatelier",
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/IMG_3110_6dfb8d03.jpg"
+  },
+  {
+    id: 19,
+    title: "Fotoatelier 10",
+    category: "Fotoatelier",
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/IMG_3167_6d5dd852.jpg"
+  },
+  {
+    id: 20,
+    title: "Fotoatelier 11",
+    category: "Fotoatelier",
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/IMG_3208_0fb6af55.jpg"
+  },
+  {
+    id: 21,
+    title: "Fotoatelier 12",
+    category: "Fotoatelier",
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/IMG_3246_4535ca5a.jpg"
+  },
+  {
+    id: 22,
+    title: "Fotoatelier 13",
+    category: "Fotoatelier",
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/IMG_3288_944d71fa.jpg"
   },
 ];
 
-const categories = ["Všechny", "Vystoupení", "Atelier"];
+const categories = ["Všechny", "Vystoupení", "Fotoatelier"];
 
 export default function Gallery() {
   const [selectedCategory, setSelectedCategory] = useState("Všechny");
@@ -182,7 +253,7 @@ export default function Gallery() {
                     <div className="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-colors duration-300 flex items-end p-4">
                       <div className="text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                         <h3 className="font-bold text-lg">{item.title}</h3>
-                        <p className="text-sm text-white/80">{item.category}</p>
+                        {item.category && <p className="text-sm text-white/80">{item.category}</p>}
                       </div>
                     </div>
                   </div>
