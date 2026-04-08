@@ -32,12 +32,12 @@ const references = [
   },
   {
     id: 6,
-    name: "Kelly Dubňany",
+    name: "Mažoretky Kelly Dubňany",
     logo: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/Kelly Dubňany_7a1435ed.jpg"
   },
   {
     id: 7,
-    name: "DC7 Česká Lípa",
+    name: "Taneční skupina DC7 Česká Lípa",
     logo: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/DC7 Česká Lípa_cc2438b6.png"
   },
   {
