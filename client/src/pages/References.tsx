@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 
 const references = [
+  // Row 1
   {
     id: 1,
     name: "Český národní svaz mažoretkového sportu",
@@ -15,31 +16,53 @@ const references = [
   },
   {
     id: 3,
+    name: "Elitery",
+    logo: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/Elitery_02644fb1.png"
+  },
+  {
+    id: 4,
+    name: "EFBT",
+    logo: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/EFBT_a7440146.jpg"
+  },
+  // Row 2
+  {
+    id: 5,
     name: "DDM Modřany",
     logo: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/DDM Modřany_78950c80.png"
   },
   {
-    id: 4,
+    id: 6,
     name: "Kelly Dubňany",
     logo: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/Kelly Dubňany_7a1435ed.jpg"
   },
   {
-    id: 5,
+    id: 7,
+    name: "DC7 Česká Lípa",
+    logo: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/DC7 Česká Lípa_cc2438b6.png"
+  },
+  {
+    id: 8,
+    name: "Obec Lenešice",
+    logo: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/Obec Lenešice_868fb7f9.jpg"
+  },
+  // Row 3
+  {
+    id: 9,
     name: "Městys Cítoliby",
     logo: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/Městys Cítoliby_e1ff0c08.png"
   },
   {
-    id: 6,
+    id: 10,
     name: "Městys Peruc",
     logo: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/Městys Peruc_ae2d5d0b.png"
   },
   {
-    id: 7,
+    id: 11,
     name: "Městys Ročov",
     logo: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/Městys Ročov_812b8b60.jpg"
   },
   {
-    id: 8,
+    id: 12,
     name: "Obec Líšťany",
     logo: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/Obec Líšťany_321ec1f1.jpg"
   },
