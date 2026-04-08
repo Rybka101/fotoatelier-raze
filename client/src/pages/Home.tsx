@@ -103,7 +103,7 @@ export default function Home() {
               
               <div className="prose prose-lg max-w-none mb-12">
                 <p className="text-lg text-foreground/80 leading-relaxed mb-6">
-                  Vítejte na webových stránkách Fotoateliéru Raze! Jsme mobilní fotoateliér, který zajišťuje profesionální fotografické služby přímo na vaší akci. Specializujeme se na taneční soutěže, plesy a firemní večírky, kde zachycujeme ty nejkrásnější a nejdůležitější okamžiky.
+                  Vítejte na webových stránkách Fotoateliéru Raze! Jsme mobilní fotoateliér, který zajišťuje profesionální fotografické služby přímo na vaší akci. Specializujeme se na <strong>taneční soutěže, plesy a firemní večírky</strong>, kde zachycujeme ty nejkrásnější a nejdůležitější okamžiky.
                 </p>
 
                 <p className="text-lg text-foreground/80 leading-relaxed mb-6">

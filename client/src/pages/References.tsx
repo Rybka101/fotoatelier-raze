@@ -21,7 +21,7 @@ const references = [
   },
   {
     id: 4,
-    name: "EFBT",
+    name: "European Federation of Baton Twirling",
     logo: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/EFBT_a7440146.jpg"
   },
   // Row 2
