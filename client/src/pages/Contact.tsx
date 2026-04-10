@@ -149,6 +149,8 @@ Kontaktujte nás a my vám rádi pomůžeme.
                   </h2>
 
                   <form action="https://formspree.io/f/xzdkllep" method="POST" className="space-y-6">
+                    {/* Hidden field to send to both emails */}
+                    <input type="hidden" name="_cc" value="raze@raze.cz" />
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                       <div>
                         <label htmlFor="name" className="block text-sm font-medium text-foreground mb-2">
