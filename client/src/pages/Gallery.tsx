@@ -16,91 +16,79 @@ const galleryItems = [
     id: 1,
     title: "Vystoupení 1",
     category: "Vystoupení",
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/R6A_0076_f60d010c.jpg"
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/R6A_1491_e21429b2.jpg"
   },
   {
     id: 2,
     title: "Vystoupení 2",
     category: "Vystoupení",
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/R6A_0273_c7f1f8af.jpg"
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/R6A_1797_5ee164d1.jpg"
   },
   {
     id: 3,
     title: "Vystoupení 3",
     category: "Vystoupení",
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/R6A_0309_c9d24de2.jpg"
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/R6A_1885_01bffdc5.jpg"
   },
   {
     id: 4,
     title: "Vystoupení 4",
     category: "Vystoupení",
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/R6A_0431_9b1e159c.jpg"
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/R6A_2290_542ce9f3.jpg"
   },
   {
     id: 5,
     title: "Vystoupení 5",
     category: "Vystoupení",
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/R6A_0493_e26a7fe8.jpg"
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/R6A_2319_652b8a3f.jpg"
   },
   {
     id: 6,
     title: "Vystoupení 6",
     category: "Vystoupení",
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/R6A_3177_d0a1c701.jpg"
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/R6A_3262_cb9c74ac.jpg"
   },
   {
     id: 7,
     title: "Vystoupení 7",
     category: "Vystoupení",
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/R6A_4902_8eccc703.jpg"
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/R6A_3267_75278c99.jpg"
   },
   {
     id: 8,
     title: "Vystoupení 8",
     category: "Vystoupení",
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/R6A_7839_b9fa81f8.jpg"
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/R6A_3368_77590fc8.jpg"
   },
   {
     id: 9,
     title: "Vystoupení 9",
     category: "Vystoupení",
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/R6A_8009_a19544e5.jpg"
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/R6A_3556_a71e5f39.jpg"
   },
   {
     id: 10,
     title: "Vystoupení 10",
     category: "Vystoupení",
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/R6A_8084_b603db62.jpg"
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/R6A_4053_34cde943.jpg"
   },
   {
     id: 11,
     title: "Vystoupení 11",
     category: "Vystoupení",
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/R6A_8232_a6d3f6c8.jpg"
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/R6A_4643_6b8d76b9.jpg"
   },
   {
     id: 12,
     title: "Vystoupení 12",
     category: "Vystoupení",
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/R6A_8905_820be708.jpg"
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/R6A_5367_43746200.jpg"
   },
   {
     id: 13,
     title: "Vystoupení 13",
     category: "Vystoupení",
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/R6A_8915_e01c3bd7.jpg"
-  },
-  {
-    id: 14,
-    title: "Vystoupení 14",
-    category: "Vystoupení",
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/R6A_9728_6b2b5a30.jpg"
-  },
-  {
-    id: 15,
-    title: "Vystoupení 15",
-    category: "Vystoupení",
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/R6A_9819_7210c34d.jpg"
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/R6A_5446_9b95d582.jpg"
   },
   {
     id: 16,
