@@ -148,7 +148,7 @@ Kontaktujte nás a my vám rádi pomůžeme.
                     Pošlete nám zprávu
                   </h2>
 
-                  <form action="https://formspree.io/f/mkopbrny" method="POST" className="space-y-6">
+                  <form action="https://formspree.io/f/xzdkllep" method="POST" className="space-y-6">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                       <div>
                         <label htmlFor="name" className="block text-sm font-medium text-foreground mb-2">
