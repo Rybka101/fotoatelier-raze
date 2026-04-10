@@ -90,93 +90,34 @@ const galleryItems = [
     category: "Vystoupení",
     image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/R6A_5446_9b95d582.jpg"
   },
+
   {
     id: 16,
     title: "Fotoateliér 1",
     category: "Fotoateliér",
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/IMG_8060_1bce6371.PNG"
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/IMG_3110_6dfb8d03.jpg"
   },
   {
     id: 17,
     title: "Fotoateliér 2",
     category: "Fotoateliér",
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/IMG_8071_92913b53.PNG"
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/IMG_3167_6d5dd852.jpg"
   },
   {
     id: 18,
     title: "Fotoateliér 3",
     category: "Fotoateliér",
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/IMG_8072_6267c2c3.PNG"
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/IMG_3208_0fb6af55.jpg"
   },
   {
     id: 19,
     title: "Fotoateliér 4",
     category: "Fotoateliér",
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/IMG_8073_88a8e93f.PNG"
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/IMG_3246_4535ca5a.jpg"
   },
   {
     id: 20,
     title: "Fotoateliér 5",
-    category: "Fotoateliér",
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/IMG_8074_91bd5eb9.PNG"
-  },
-  {
-    id: 21,
-    title: "Fotoateliér 6",
-    category: "Fotoateliér",
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/IMG_8075_7cb3bdda.PNG"
-  },
-  {
-    id: 22,
-    title: "Fotoateliér 7",
-    category: "Fotoateliér",
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/IMG_8076_af174853.PNG"
-  },
-  {
-    id: 23,
-    title: "Fotoateliér 8",
-    category: "Fotoateliér",
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/IMG_8077_452fe1f9.PNG"
-  },
-  {
-    id: 24,
-    title: "Fotoateliér 9",
-    category: "Fotoateliér",
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/IMG_1111_c52a5727.jpg"
-  },
-  {
-    id: 25,
-    title: "Fotoateliér 10",
-    category: "Fotoateliér",
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/IMG_2222_ae563c43.jpg"
-  },
-  {
-    id: 26,
-    title: "Fotoateliér 11",
-    category: "Fotoateliér",
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/IMG_3110_6dfb8d03.jpg"
-  },
-  {
-    id: 27,
-    title: "Fotoateliér 12",
-    category: "Fotoateliér",
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/IMG_3167_6d5dd852.jpg"
-  },
-  {
-    id: 28,
-    title: "Fotoateliér 13",
-    category: "Fotoateliér",
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/IMG_3208_0fb6af55.jpg"
-  },
-  {
-    id: 29,
-    title: "Fotoateliér 14",
-    category: "Fotoateliér",
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/IMG_3246_4535ca5a.jpg"
-  },
-  {
-    id: 30,
-    title: "Fotoateliér 15",
     category: "Fotoateliér",
     image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/IMG_3288_944d71fa.jpg"
   },
