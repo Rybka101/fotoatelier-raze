@@ -94,6 +94,14 @@ export default function References() {
             <Link href="/contact" className="text-foreground/70 hover:text-foreground transition-colors">
               Kontakt
             </Link>
+            <a 
+              href="https://razefotoatelier.pixieset.com/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-foreground/70 hover:text-foreground transition-colors"
+            >
+              E-shop
+            </a>
           </div>
         </div>
       </nav>

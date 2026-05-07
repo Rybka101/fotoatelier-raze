@@ -36,6 +36,14 @@ export default function Contact() {
             <Link href="/contact" className="text-primary font-medium">
               Kontakt
             </Link>
+            <a 
+              href="https://razefotoatelier.pixieset.com/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-foreground hover:text-primary font-medium transition-colors"
+            >
+              E-shop
+            </a>
           </div>
         </div>
       </nav>

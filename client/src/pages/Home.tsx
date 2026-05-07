@@ -36,6 +36,14 @@ export default function Home() {
             <Link href="/contact" className="text-foreground hover:text-primary font-medium transition-colors">
               Kontakt
             </Link>
+            <a 
+              href="https://razefotoatelier.pixieset.com/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-foreground hover:text-primary font-medium transition-colors"
+            >
+              E-shop
+            </a>
           </div>
         </div>
       </nav>
@@ -66,11 +74,22 @@ export default function Home() {
                   <p className="text-xl font-bold mb-8 max-w-md text-foreground/80">
                     Mobilní fotoateliér s profesionálním vybavením a tiskem fotografií na místě
                   </p>
-                  <Link href="/gallery">
-                    <Button size="lg" className="bg-primary hover:bg-blue-700 text-white font-bold">
-                      Prohlédnout galerii
-                    </Button>
-                  </Link>
+                  <div className="flex gap-4">
+                    <Link href="/gallery">
+                      <Button size="lg" className="bg-primary hover:bg-blue-700 text-white font-bold">
+                        Prohlédnout galerii
+                      </Button>
+                    </Link>
+                    <a 
+                      href="https://razefotoatelier.pixieset.com/" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                    >
+                      <Button size="lg" className="bg-primary hover:bg-blue-700 text-white font-bold">
+                        Zakoupit fotografie
+                      </Button>
+                    </a>
+                  </div>
                 </div>
               </div>
 

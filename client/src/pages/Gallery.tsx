@@ -158,6 +158,14 @@ export default function Gallery() {
             <Link href="/contact" className="text-foreground hover:text-primary font-medium transition-colors">
               Kontakt
             </Link>
+            <a 
+              href="https://razefotoatelier.pixieset.com/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-foreground hover:text-primary font-medium transition-colors"
+            >
+              E-shop
+            </a>
           </div>
         </div>
       </nav>
