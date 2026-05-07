@@ -40,9 +40,11 @@ export default function Contact() {
               href="https://razefotoatelier.pixieset.com/" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="text-foreground hover:text-primary font-medium transition-colors"
+              className="inline-block"
             >
-              E-shop
+              <Button size="sm" className="bg-primary hover:bg-blue-700 text-white font-bold">
+                E-shop
+              </Button>
             </a>
           </div>
         </div>

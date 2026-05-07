@@ -1,5 +1,5 @@
-import { Button } from "@/components/ui/button";
 import { Link } from "wouter";
+import { Button } from "@/components/ui/button";
 import { Camera, Printer, Music, Heart } from "lucide-react";
 
 /**
@@ -40,9 +40,11 @@ export default function Home() {
               href="https://razefotoatelier.pixieset.com/" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="text-foreground hover:text-primary font-medium transition-colors"
+              className="inline-block"
             >
-              E-shop
+              <Button size="sm" className="bg-primary hover:bg-blue-700 text-white font-bold">
+                E-shop
+              </Button>
             </a>
           </div>
         </div>
