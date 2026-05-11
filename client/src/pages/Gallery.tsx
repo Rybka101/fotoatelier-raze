@@ -228,13 +228,13 @@ export default function Gallery() {
                       onContextMenu={(e) => e.preventDefault()}
                       draggable={false}
                     />
-                    {/* Watermark - Full coverage */}
-                    <div className="absolute inset-0 flex items-center justify-center pointer-events-none" style={{
-                      backgroundImage: 'url(https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/raze-logo_ebc3f343.png)',
-                      backgroundRepeat: 'repeat',
-                      backgroundSize: '150px 150px',
-                      opacity: 0.15
-                    }}>
+                    {/* Watermark - Single centered logo */}
+                    <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+                      <img
+                        src="https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/raze-logo_ebc3f343.png"
+                        alt="Watermark"
+                        className="w-40 h-40 opacity-25"
+                      />
                     </div>
                     <div className="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-colors duration-300 flex items-end p-4 pointer-events-none">
                       <div className="text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -282,13 +282,13 @@ export default function Gallery() {
                 onContextMenu={(e) => e.preventDefault()}
                 draggable={false}
               />
-              {/* Watermark - Full coverage */}
-              <div className="absolute inset-0 flex items-center justify-center pointer-events-none" style={{
-                backgroundImage: 'url(https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/raze-logo_ebc3f343.png)',
-                backgroundRepeat: 'repeat',
-                backgroundSize: '150px 150px',
-                opacity: 0.15
-              }}>
+              {/* Watermark - Single centered logo */}
+              <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+                <img
+                  src="https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/raze-logo_ebc3f343.png"
+                  alt="Watermark"
+                  className="w-40 h-40 opacity-25"
+                />
               </div>
             </div>
             <div className="p-6">
