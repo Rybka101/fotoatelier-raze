@@ -1,6 +1,6 @@
 import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
-import { Camera, Printer, Music, Heart } from "lucide-react";
+import { Camera, Printer, Music, Heart, Facebook, Instagram } from "lucide-react";
 
 /**
  * Design Philosophy: Modern Professional with Bold Blue Accent
@@ -254,10 +254,34 @@ Po celé České republice.
 
       {/* Footer */}
       <footer className="bg-foreground text-white py-8">
-        <div className="container text-center">
-          <p className="text-sm opacity-75">
-            © 2026 Fotoateliér RAZE. Všechna práva vyhrazena.
-          </p>
+        <div className="container">
+          <div className="flex flex-col items-center gap-6">
+            {/* Social Media */}
+            <div className="flex gap-4">
+              <a 
+                href="https://www.facebook.com/razefotoatelier/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="w-10 h-10 bg-white/20 rounded-full flex items-center justify-center text-white hover:bg-primary hover:text-white transition-all"
+                aria-label="Facebook"
+              >
+                <Facebook className="w-5 h-5" />
+              </a>
+              <a 
+                href="https://www.instagram.com/raze.fotoatelier/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="w-10 h-10 bg-white/20 rounded-full flex items-center justify-center text-white hover:bg-primary hover:text-white transition-all"
+                aria-label="Instagram"
+              >
+                <Instagram className="w-5 h-5" />
+              </a>
+            </div>
+            {/* Copyright */}
+            <p className="text-sm opacity-75">
+              © 2026 Fotoateliér RAZE. Všechna práva vyhrazena.
+            </p>
+          </div>
         </div>
       </footer>
     </div>
