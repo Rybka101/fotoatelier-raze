@@ -1,6 +1,6 @@
 import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
-import { ArrowLeft, Mail, Phone, MapPin } from "lucide-react";
+import { ArrowLeft, Mail, Phone, MapPin, Facebook, Instagram } from "lucide-react";
 
 /**
  * Design Philosophy: Modern Professional with Bold Blue Accent
@@ -125,7 +125,30 @@ Kontaktujte nás a my vám rádi pomůžeme.
                   </div>
                 </div>
 
-
+                {/* Social Media */}
+                <div className="mt-12 pt-8 border-t border-border">
+                  <h3 className="font-bold text-foreground mb-6">Sledujte nás</h3>
+                  <div className="flex gap-4">
+                    <a 
+                      href="https://www.facebook.com/razefotoatelier/" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="w-12 h-12 bg-secondary rounded-full flex items-center justify-center text-primary hover:bg-primary hover:text-white transition-all"
+                      aria-label="Facebook"
+                    >
+                      <Facebook className="w-5 h-5" />
+                    </a>
+                    <a 
+                      href="https://www.instagram.com/raze.fotoatelier/" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="w-12 h-12 bg-secondary rounded-full flex items-center justify-center text-primary hover:bg-primary hover:text-white transition-all"
+                      aria-label="Instagram"
+                    >
+                      <Instagram className="w-5 h-5" />
+                    </a>
+                  </div>
+                </div>
               </div>
 
               {/* Contact Form */}
