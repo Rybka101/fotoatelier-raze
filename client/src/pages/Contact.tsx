@@ -37,7 +37,7 @@ export default function Contact() {
               Kontakt
             </Link>
             <a 
-              href="https://razefotoatelier.pixieset.com/" 
+              href="https://eshop.raze.cz/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-block"

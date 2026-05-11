@@ -37,7 +37,7 @@ export default function Home() {
               Kontakt
             </Link>
             <a 
-              href="https://razefotoatelier.pixieset.com/" 
+              href="https://eshop.raze.cz/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-block"
@@ -83,7 +83,7 @@ export default function Home() {
                       </Button>
                     </Link>
                     <a 
-                      href="https://razefotoatelier.pixieset.com/" 
+                      href="https://eshop.raze.cz/" 
                       target="_blank" 
                       rel="noopener noreferrer"
                     >
