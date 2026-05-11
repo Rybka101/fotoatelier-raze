@@ -224,9 +224,19 @@ export default function Gallery() {
                     <img
                       src={item.image}
                       alt={item.title}
-                      className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500"
+                      className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500 select-none"
+                      onContextMenu={(e) => e.preventDefault()}
+                      draggable={false}
                     />
-                    <div className="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-colors duration-300 flex items-end p-4">
+                    {/* Watermark */}
+                    <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+                      <img
+                        src="https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/raze-logo_ebc3f343.png"
+                        alt="Watermark"
+                        className="w-24 h-24 opacity-30"
+                      />
+                    </div>
+                    <div className="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-colors duration-300 flex items-end p-4 pointer-events-none">
                       <div className="text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                         <h3 className="font-bold text-lg">{item.title}</h3>
                         {item.category && <p className="text-sm text-white/80">{item.category}</p>}
