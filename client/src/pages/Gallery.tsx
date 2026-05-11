@@ -233,7 +233,7 @@ export default function Gallery() {
                       <img
                         src="https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/raze-logo_ebc3f343.png"
                         alt="Watermark"
-                        className="w-40 h-40 opacity-25"
+                        className="w-64 h-64 opacity-40"
                       />
                     </div>
                     <div className="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-colors duration-300 flex items-end p-4 pointer-events-none">
@@ -287,7 +287,7 @@ export default function Gallery() {
                 <img
                   src="https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/raze-logo_ebc3f343.png"
                   alt="Watermark"
-                  className="w-40 h-40 opacity-25"
+                  className="w-64 h-64 opacity-40"
                 />
               </div>
             </div>
