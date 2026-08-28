@@ -61,7 +61,7 @@ export default function Home() {
           }}
         >
           {/* Dark overlay for text readability */}
-          <div className="absolute inset-0 bg-white/10"></div>
+          <div className="absolute inset-0 bg-white/0"></div>
           
           <div className="container relative z-10 py-20">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
