@@ -61,7 +61,7 @@ export default function Home() {
           }}
         >
           {/* Dark overlay for text readability */}
-          <div className="absolute inset-0 bg-black/20"></div>
+          <div className="absolute inset-0 bg-white/10"></div>
           
           <div className="container relative z-10 py-20">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -72,11 +72,12 @@ export default function Home() {
                     src="/assets/raze-logo.png" 
                     alt="Fotoateliér RAZE Logo" 
                     className="h-40 w-auto mb-8"
+                    style={{ filter: 'drop-shadow(0 2px 3px rgba(0, 82, 204, 0.35))' }}
                   />
-                  <h1 className="text-5xl lg:text-6xl font-bold text-white mb-4" style={{ fontFamily: "'Playfair Display', serif" }}>
+                  <h1 className="text-5xl lg:text-6xl font-bold text-primary mb-4" style={{ fontFamily: "'Playfair Display', serif" }}>
                     Fotoateliér RAZE
                   </h1>
-                  <p className="text-xl text-white/90 mb-8 max-w-md">
+                  <p className="text-xl font-bold text-foreground/80 mb-8 max-w-md">
                     Mobilní fotoateliér s profesionálním vybavením a tiskem fotografií na místě
                   </p>
                   <div className="flex gap-4">
