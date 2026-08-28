@@ -20,8 +20,8 @@ const references = [
   },
   {
     id: 4,
-    name: "Taneční skupina DC7 Česká Lípa",
-    logo: "/assets/references/reference-dc7.png"
+    name: "European Federation of Baton Twirling",
+    logo: "/assets/references/reference-efbt.jpg"
   },
   {
     id: 5,
@@ -35,26 +35,31 @@ const references = [
   },
   {
     id: 7,
+    name: "Taneční skupina DC7 Česká Lípa",
+    logo: "/assets/references/reference-dc7.png"
+  },
+  {
+    id: 8,
     name: "Obec Lenešice",
     logo: "/assets/references/reference-obec-lenesice.jpg"
   },
   {
-    id: 8,
+    id: 9,
     name: "Městys Cítoliby",
     logo: "/assets/references/reference-mestys-citoliby.png"
   },
   {
-    id: 9,
+    id: 10,
     name: "Městys Peruc",
     logo: "/assets/references/reference-mestys-peruc.png"
   },
   {
-    id: 10,
+    id: 11,
     name: "Městys Ročov",
     logo: "/assets/references/reference-mestys-rocov.jpg"
   },
   {
-    id: 11,
+    id: 12,
     name: "Obec Líšťany",
     logo: "/assets/references/reference-obec-listany.jpg"
   },
