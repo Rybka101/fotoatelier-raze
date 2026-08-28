@@ -55,13 +55,13 @@ export default function Home() {
         <section 
           className="relative min-h-screen flex items-center justify-center overflow-hidden"
           style={{
-            backgroundImage: 'linear-gradient(135deg, rgba(240, 246, 255, 0.98), rgba(255, 255, 255, 0.94))',
+            backgroundImage: "url('/assets/hero-bg-geometric.webp')",
             backgroundSize: 'cover',
             backgroundPosition: 'center',
           }}
         >
           {/* Dark overlay for text readability */}
-          <div className="absolute inset-0 bg-black/10"></div>
+          <div className="absolute inset-0 bg-black/20"></div>
           
           <div className="container relative z-10 py-20">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -73,7 +73,10 @@ export default function Home() {
                     alt="Fotoateliér RAZE Logo" 
                     className="h-40 w-auto mb-8"
                   />
-                  <p className="text-xl font-bold mb-8 max-w-md text-foreground/80">
+                  <h1 className="text-5xl lg:text-6xl font-bold text-white mb-4" style={{ fontFamily: "'Playfair Display', serif" }}>
+                    Fotoateliér RAZE
+                  </h1>
+                  <p className="text-xl text-white/90 mb-8 max-w-md">
                     Mobilní fotoateliér s profesionálním vybavením a tiskem fotografií na místě
                   </p>
                   <div className="flex gap-4">
