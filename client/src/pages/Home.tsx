@@ -74,9 +74,6 @@ export default function Home() {
                     className="h-40 w-auto mb-8"
                     style={{ filter: 'drop-shadow(0 2px 3px rgba(0, 82, 204, 0.35))' }}
                   />
-                  <h1 className="text-5xl lg:text-6xl font-bold text-primary mb-4" style={{ fontFamily: "'Playfair Display', serif" }}>
-                    Fotoateliér RAZE
-                  </h1>
                   <p className="text-xl font-bold text-foreground/80 mb-8 max-w-md">
                     Mobilní fotoateliér s profesionálním vybavením a tiskem fotografií na místě
                   </p>
