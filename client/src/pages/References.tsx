@@ -3,68 +3,60 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 
 const references = [
-  // Row 1
   {
     id: 1,
     name: "Český národní svaz mažoretkového sportu",
-    logo: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/Český národní svaz mažoretkového sportu_711f84e8.png"
+    logo: "/assets/references/reference-czech-majorettes.png"
   },
   {
     id: 2,
     name: "Taneční Martina a Kateřiny Čechových",
-    logo: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/TaneЯnб Martina a Kate¤iny мechovьch_75660aaa.png"
+    logo: "/assets/references/reference-tanecni-martina-kateriny.png"
   },
   {
     id: 3,
     name: "Elitery",
-    logo: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/Elitery_02644fb1.png"
+    logo: "/assets/references/reference-elitery.png"
   },
   {
     id: 4,
-    name: "European Federation of Baton Twirling",
-    logo: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/EFBT_a7440146.jpg"
+    name: "Taneční skupina DC7 Česká Lípa",
+    logo: "/assets/references/reference-dc7.png"
   },
-  // Row 2
   {
     id: 5,
     name: "DDM Modřany",
-    logo: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/DDM Modřany_78950c80.png"
+    logo: "/assets/references/reference-ddm-modrany.png"
   },
   {
     id: 6,
     name: "Mažoretky Kelly Dubňany",
-    logo: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/Kelly Dubňany_7a1435ed.jpg"
+    logo: "/assets/references/reference-kelly-dubnany.jpg"
   },
   {
     id: 7,
-    name: "Taneční skupina DC7 Česká Lípa",
-    logo: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/DC7 Česká Lípa_cc2438b6.png"
+    name: "Obec Lenešice",
+    logo: "/assets/references/reference-obec-lenesice.jpg"
   },
   {
     id: 8,
-    name: "Obec Lenešice",
-    logo: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/Obec Lenešice_868fb7f9.jpg"
+    name: "Městys Cítoliby",
+    logo: "/assets/references/reference-mestys-citoliby.png"
   },
-  // Row 3
   {
     id: 9,
-    name: "Městys Cítoliby",
-    logo: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/Městys Cítoliby_e1ff0c08.png"
+    name: "Městys Peruc",
+    logo: "/assets/references/reference-mestys-peruc.png"
   },
   {
     id: 10,
-    name: "Městys Peruc",
-    logo: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/Městys Peruc_ae2d5d0b.png"
+    name: "Městys Ročov",
+    logo: "/assets/references/reference-mestys-rocov.jpg"
   },
   {
     id: 11,
-    name: "Městys Ročov",
-    logo: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/Městys Ročov_812b8b60.jpg"
-  },
-  {
-    id: 12,
     name: "Obec Líšťany",
-    logo: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/Obec Líšťany_321ec1f1.jpg"
+    logo: "/assets/references/reference-obec-listany.jpg"
   },
 ];
 

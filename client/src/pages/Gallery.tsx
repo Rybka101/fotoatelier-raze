@@ -111,103 +111,103 @@ const galleryItems = [
   },
   {
     id: 17,
-    title: "Fotoateliér 2 – levá",
+    title: "Fotoateliér 2",
     category: "Fotoateliér",
     image: "/gallery/fotokoutek-02-left.webp"
   },
   {
     id: 18,
-    title: "Fotoateliér 2 – pravá",
+    title: "Fotoateliér 3",
     category: "Fotoateliér",
     image: "/gallery/fotokoutek-02-right.webp"
   },
   {
     id: 19,
-    title: "Fotoateliér 3",
+    title: "Fotoateliér 4",
     category: "Fotoateliér",
     image: "/gallery/fotokoutek-03.webp"
   },
   {
     id: 20,
-    title: "Fotoateliér 4",
+    title: "Fotoateliér 5",
     category: "Fotoateliér",
     image: "/gallery/fotokoutek-04.webp"
   },
   {
     id: 21,
-    title: "Fotoateliér 5 – levá",
+    title: "Fotoateliér 6",
     category: "Fotoateliér",
     image: "/gallery/fotokoutek-05-left.webp"
   },
   {
     id: 22,
-    title: "Fotoateliér 5 – pravá",
+    title: "Fotoateliér 7",
     category: "Fotoateliér",
     image: "/gallery/fotokoutek-05-right.webp"
   },
   {
     id: 23,
-    title: "Fotoateliér 6",
+    title: "Fotoateliér 8",
     category: "Fotoateliér",
     image: "/gallery/fotokoutek-06.webp"
   },
   {
     id: 24,
-    title: "Fotoateliér 7 – levá",
+    title: "Fotoateliér 9",
     category: "Fotoateliér",
     image: "/gallery/fotokoutek-07-left.webp"
   },
   {
     id: 25,
-    title: "Fotoateliér 7 – pravá",
+    title: "Fotoateliér 10",
     category: "Fotoateliér",
     image: "/gallery/fotokoutek-07-right.webp"
   },
   {
     id: 26,
-    title: "Fotoateliér 8",
+    title: "Fotoateliér 11",
     category: "Fotoateliér",
     image: "/gallery/fotokoutek-08.webp"
   },
   {
     id: 27,
-    title: "Fotoateliér 9",
+    title: "Fotoateliér 12",
     category: "Fotoateliér",
     image: "/gallery/fotokoutek-09.webp"
   },
   {
     id: 28,
-    title: "Fotoateliér 10",
+    title: "Fotoateliér 13",
     category: "Fotoateliér",
     image: "/gallery/fotokoutek-10.webp"
   },
   {
     id: 29,
-    title: "Fotoateliér 11",
+    title: "Fotoateliér 14",
     category: "Fotoateliér",
     image: "/gallery/fotokoutek-11.webp"
   },
   {
     id: 30,
-    title: "Fotoateliér 12",
+    title: "Fotoateliér 15",
     category: "Fotoateliér",
     image: "/gallery/fotokoutek-12.webp"
   },
   {
     id: 31,
-    title: "Fotoateliér 13",
+    title: "Fotoateliér 16",
     category: "Fotoateliér",
     image: "/gallery/fotokoutek-13.webp"
   },
   {
     id: 32,
-    title: "Fotoateliér 14",
+    title: "Fotoateliér 17",
     category: "Fotoateliér",
     image: "/gallery/fotokoutek-14.webp"
   },
   {
     id: 33,
-    title: "Fotoateliér 15",
+    title: "Fotoateliér 18",
     category: "Fotoateliér",
     image: "/gallery/fotokoutek-15.webp"
   },
