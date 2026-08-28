@@ -18,7 +18,7 @@ export default function Contact() {
         <div className="container flex items-center justify-between py-4">
           <Link href="/" className="flex items-center gap-2 hover:opacity-70 transition-opacity">
             <img 
-              src="https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/raze-logo_ebc3f343.png" 
+              src="/assets/raze-logo.png" 
               alt="Fotoateliér RAZE" 
               className="h-10 w-auto"
             />

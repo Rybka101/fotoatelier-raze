@@ -18,7 +18,7 @@ export default function Home() {
         <div className="container flex items-center justify-between py-4">
           <div className="flex items-center gap-2">
             <img 
-              src="https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/raze-logo_ebc3f343.png" 
+              src="/assets/raze-logo.png" 
               alt="Fotoateliér RAZE" 
               className="h-10 w-auto"
             />
@@ -55,7 +55,7 @@ export default function Home() {
         <section 
           className="relative min-h-screen flex items-center justify-center overflow-hidden"
           style={{
-            backgroundImage: 'url(https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/gallery-bg-new_678b441b.png)',
+            backgroundImage: 'linear-gradient(135deg, rgba(240, 246, 255, 0.98), rgba(255, 255, 255, 0.94))',
             backgroundSize: 'cover',
             backgroundPosition: 'center',
           }}
@@ -69,7 +69,7 @@ export default function Home() {
               <div className="flex flex-col justify-center">
                 <div className="mb-8 animate-fade-in">
                   <img 
-                    src="https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/raze-logo_ebc3f343.png" 
+                    src="/assets/raze-logo.png" 
                     alt="Fotoateliér RAZE Logo" 
                     className="h-40 w-auto mb-8"
                   />
@@ -175,7 +175,7 @@ Po celé České republice.
         <section 
           className="py-20 border-t border-border"
           style={{
-            backgroundImage: 'url(https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/gallery-bg-new_678b441b.png)',
+            backgroundImage: 'linear-gradient(135deg, rgba(240, 246, 255, 0.98), rgba(255, 255, 255, 0.94))',
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             backgroundAttachment: 'fixed',

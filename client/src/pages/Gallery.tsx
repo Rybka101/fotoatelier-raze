@@ -16,110 +16,182 @@ const galleryItems = [
     id: 1,
     title: "Vystoupení 1",
     category: "Vystoupení",
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/R6A_1491_e21429b2.jpg"
+    image: "/gallery/vystoupeni-R6A_0076.webp"
   },
   {
     id: 2,
     title: "Vystoupení 2",
     category: "Vystoupení",
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/R6A_1797_5ee164d1.jpg"
+    image: "/gallery/vystoupeni-R6A_0273.webp"
   },
   {
     id: 3,
     title: "Vystoupení 3",
     category: "Vystoupení",
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/R6A_1885_01bffdc5.jpg"
+    image: "/gallery/vystoupeni-R6A_0309.webp"
   },
   {
     id: 4,
     title: "Vystoupení 4",
     category: "Vystoupení",
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/R6A_2290_542ce9f3.jpg"
+    image: "/gallery/vystoupeni-R6A_0431.webp"
   },
   {
     id: 5,
     title: "Vystoupení 5",
     category: "Vystoupení",
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/R6A_2319_652b8a3f.jpg"
+    image: "/gallery/vystoupeni-R6A_0493.webp"
   },
   {
     id: 6,
     title: "Vystoupení 6",
     category: "Vystoupení",
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/R6A_3262_cb9c74ac.jpg"
+    image: "/gallery/vystoupeni-R6A_3177.webp"
   },
   {
     id: 7,
     title: "Vystoupení 7",
     category: "Vystoupení",
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/R6A_3267_75278c99.jpg"
+    image: "/gallery/vystoupeni-R6A_4902.webp"
   },
   {
     id: 8,
     title: "Vystoupení 8",
     category: "Vystoupení",
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/R6A_3368_77590fc8.jpg"
+    image: "/gallery/vystoupeni-R6A_7839.webp"
   },
   {
     id: 9,
     title: "Vystoupení 9",
     category: "Vystoupení",
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/R6A_3556_a71e5f39.jpg"
+    image: "/gallery/vystoupeni-R6A_8009.webp"
   },
   {
     id: 10,
     title: "Vystoupení 10",
     category: "Vystoupení",
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/R6A_4053_34cde943.jpg"
+    image: "/gallery/vystoupeni-R6A_8084.webp"
   },
   {
     id: 11,
     title: "Vystoupení 11",
     category: "Vystoupení",
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/R6A_4643_6b8d76b9.jpg"
+    image: "/gallery/vystoupeni-R6A_8232.webp"
   },
   {
     id: 12,
     title: "Vystoupení 12",
     category: "Vystoupení",
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/R6A_5367_43746200.jpg"
+    image: "/gallery/vystoupeni-R6A_8905.webp"
   },
   {
     id: 13,
     title: "Vystoupení 13",
     category: "Vystoupení",
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/R6A_5446_9b95d582.jpg"
+    image: "/gallery/vystoupeni-R6A_8915.webp"
   },
 
+  {
+    id: 14,
+    title: "Vystoupení 14",
+    category: "Vystoupení",
+    image: "/gallery/vystoupeni-R6A_9728.webp"
+  },
+  {
+    id: 15,
+    title: "Vystoupení 15",
+    category: "Vystoupení",
+    image: "/gallery/vystoupeni-R6A_9819.webp"
+  },
   {
     id: 16,
     title: "Fotoateliér 1",
     category: "Fotoateliér",
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/IMG_3110_6dfb8d03.jpg"
+    image: "/gallery/fotokoutek-01.webp"
   },
   {
     id: 17,
     title: "Fotoateliér 2",
     category: "Fotoateliér",
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/IMG_3167_6d5dd852.jpg"
+    image: "/gallery/fotokoutek-02.webp"
   },
   {
     id: 18,
     title: "Fotoateliér 3",
     category: "Fotoateliér",
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/IMG_3208_0fb6af55.jpg"
+    image: "/gallery/fotokoutek-03.webp"
   },
   {
     id: 19,
     title: "Fotoateliér 4",
     category: "Fotoateliér",
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/IMG_3246_4535ca5a.jpg"
+    image: "/gallery/fotokoutek-04.webp"
   },
   {
     id: 20,
     title: "Fotoateliér 5",
     category: "Fotoateliér",
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/IMG_3288_944d71fa.jpg"
+    image: "/gallery/fotokoutek-05.webp"
+  },
+  {
+    id: 21,
+    title: "Fotoateliér 6",
+    category: "Fotoateliér",
+    image: "/gallery/fotokoutek-06.webp"
+  },
+  {
+    id: 22,
+    title: "Fotoateliér 7",
+    category: "Fotoateliér",
+    image: "/gallery/fotokoutek-07.webp"
+  },
+  {
+    id: 23,
+    title: "Fotoateliér 8",
+    category: "Fotoateliér",
+    image: "/gallery/fotokoutek-08.webp"
+  },
+  {
+    id: 24,
+    title: "Fotoateliér 9",
+    category: "Fotoateliér",
+    image: "/gallery/fotokoutek-09.webp"
+  },
+  {
+    id: 25,
+    title: "Fotoateliér 10",
+    category: "Fotoateliér",
+    image: "/gallery/fotokoutek-10.webp"
+  },
+  {
+    id: 26,
+    title: "Fotoateliér 11",
+    category: "Fotoateliér",
+    image: "/gallery/fotokoutek-11.webp"
+  },
+  {
+    id: 27,
+    title: "Fotoateliér 12",
+    category: "Fotoateliér",
+    image: "/gallery/fotokoutek-12.webp"
+  },
+  {
+    id: 28,
+    title: "Fotoateliér 13",
+    category: "Fotoateliér",
+    image: "/gallery/fotokoutek-13.webp"
+  },
+  {
+    id: 29,
+    title: "Fotoateliér 14",
+    category: "Fotoateliér",
+    image: "/gallery/fotokoutek-14.webp"
+  },
+  {
+    id: 30,
+    title: "Fotoateliér 15",
+    category: "Fotoateliér",
+    image: "/gallery/fotokoutek-15.webp"
   },
 ];
 
@@ -140,7 +212,7 @@ export default function Gallery() {
         <div className="container flex items-center justify-between py-4">
           <Link href="/" className="flex items-center gap-2 hover:opacity-70 transition-opacity">
             <img 
-              src="https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/raze-logo_ebc3f343.png" 
+              src="/assets/raze-logo.png" 
               alt="Fotoateliér RAZE" 
               className="h-10 w-auto"
             />
@@ -231,7 +303,7 @@ export default function Gallery() {
                     {/* Watermark - Single centered logo */}
                     <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
                       <img
-                        src="https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/raze-logo_ebc3f343.png"
+                        src="/assets/raze-logo.png"
                         alt="Watermark"
                         className="w-64 h-64 opacity-40"
                       />
@@ -285,7 +357,7 @@ export default function Gallery() {
               {/* Watermark - Single centered logo */}
               <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
                 <img
-                  src="https://d2xsxph8kpxj0f.cloudfront.net/310519663497827847/jnssJtQ6JEr9ABriAaCYcF/raze-logo_ebc3f343.png"
+                  src="/assets/raze-logo.png"
                   alt="Watermark"
                   className="w-64 h-64 opacity-40"
                 />
