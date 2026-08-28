@@ -55,7 +55,7 @@ export default function Home() {
         <section 
           className="relative min-h-screen flex items-center justify-center overflow-hidden"
           style={{
-            backgroundImage: "url('/assets/hero-bg-geometric.webp')",
+            backgroundImage: "url('/assets/hero-bg-light.webp')",
             backgroundSize: 'cover',
             backgroundPosition: 'center',
           }}
